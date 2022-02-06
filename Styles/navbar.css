@@ -49,6 +49,11 @@
   padding: 30px 0px 10px 0px;
   margin-top: 120px;
   height: 60px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
 }
 .footer-icons {
   color: var(--white-color);

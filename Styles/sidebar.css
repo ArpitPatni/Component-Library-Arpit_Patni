@@ -26,7 +26,7 @@ body {
 }
 
 .sidebar ul li a:hover {
-  color: brown;
+  color:var(--background-color);
   margin-left: 20px;
   transition: 0.4s;
 }

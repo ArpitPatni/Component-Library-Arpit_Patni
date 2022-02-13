@@ -356,6 +356,80 @@
       </iframe>
     </section>
 
+    <section class="main-title" id="">
+      <h2 class="avatar-heading" >Input</h2>
+      <p class="component-navbar-item">There are Input fields listed below and Input validation is also styled.</p>
+        <h3 class="avatar-heading">Text Box</h3>
+      <div class="image-items">
+        <input
+          type="text"
+          class="simple-input-box"
+          placeholder="Write your text here"
+          required="text" maxlength="8" minlength="4" 
+        /> 
+        </div>
+        <h2 class="avatar-heading" >Input with validation and errors style</h2>
+      <p class="component-navbar-item"></p>
+      <div class="image-items"> 
+        
+        <h5 class="space">1. Required field (Display error if Submitted blank)</h5>
+      <form action="">
+        <input
+          type="text"
+          class="simple-input-box space"
+          placeholder="Write your text here"
+          required="text" maxlength="18" minlength="4"
+        /> <br>
+        <input type="submit" class="validate-submit space" />
+      </form>
+
+      <h5 class="space">2. Input with different error styles</h5>
+      <form action="">
+        <label>Email</label></br>
+        <input
+          type="email"
+          class="simple-input-box"
+          placeholder="name@example.com"
+          required="text"
+        /> 
+        <p class="Error-message space">Please Enter correct Email</p>
+        <label>Password</label></br>
+        <input
+          type="text"
+          class="simple-input-box "
+          placeholder="Enter a strong password"
+          required="text"
+        /> 
+        <p class="validation-msg space">Please Enter Strong Password</p>
+      </form>
+      </div>
+    </section>
+
+    <section class="main-title" id="typography">
+      <h2 class="avatar-heading" >Navigation</h2>
+      <p class="component-navbar-item">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. 
+        It is a hamburger menu in medium and small devices.</p>
+      <div class="navigation-item">
+        <nav class="flex nav-item">
+          <div class="left-nav">
+          <a href="index.html" class="nav-heading" >My website</a>
+            <input class="search-bar" placeholder="Search"/></div>
+            <div class="right-nav">
+            <button class="btn  btn-round">Login</button>
+            <button  class="badge-button badge-lg">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="icon-button-badge icon-xl">16</span>
+            </button>
+            <button  class="badge-button badge-lg">
+              <i class="fas fa-heart fa-2x"></i>
+              <span class="icon-button-badge icon-xl">16</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      
+    </section>
+
     <section class="footer">
       <h4 class="footer-heading">
         Made by <i class="fas fa-code"></i> Arpit Patni

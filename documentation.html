@@ -80,18 +80,18 @@
           </a>
         </li>
         <li>
-          <a href="#Inputs">
+          <a href="#input">
             <span>Input</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#typography">
             <span>Typography</span>
           </a>
         </li>
         <li>
-          <a href="#">
-            <span>Lists</span>
+          <a href="#navbar">
+            <span>Navbar</span>
           </a>
         </li>
       </ul>
@@ -423,6 +423,85 @@
   style="width: 100%; height: 356px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+    </section>
+
+    <section class="main-title" id="input">
+      <h2 class="avatar-heading" >Input</h2>
+      <p class="component-navbar-item">There are Input fields listed below and Input validation is also styled.</p>
+        <h3 class="avatar-heading">Text Box</h3>
+      <div class="input-items">
+        <input
+          type="text"
+          class="simple-input-box"
+          placeholder="Write your text here"
+          required="text" maxlength="8" minlength="4" 
+        /> 
+        </div>
+        <h2 class="avatar-heading" >Input with validation and errors style</h2>
+      <p class="component-navbar-item"></p>
+      <div class="input-items"> 
+        
+        <h5 class="space">1. Required field (Display error if Submitted blank)</h5>
+      <form action="">
+        <input
+          type="text"
+          class="simple-input-box space"
+          placeholder="Write your text here"
+          required="text" maxlength="18" minlength="4"
+        /> <br>
+        <input type="submit" class="validate-submit space" />
+      </form>
+
+      <h5 class="space">2. Input with different error styles</h5>
+      <form action="">
+        <label>Email</label></br>
+        <input
+          type="email"
+          class="simple-input-box"
+          placeholder="name@example.com"
+          required="text"
+        /> 
+        <p class="Error-message space">Please Enter correct Email</p>
+        <label>Password</label></br>
+        <input
+          type="text"
+          class="simple-input-box "
+          placeholder="Enter a strong password"
+          required="text"
+        /> 
+        <p class="validation-msg space">Please Enter Strong Password</p>
+      </form>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=34px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%250A%253Cp%2520class%253D%2522heading-1%2522%253EH1%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cp%2520class%253D%2522heading-2%2522%253EH2%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522heading-3%2522%253EH3%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522heading-4%2522%253EH4%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522heading-5%2522%253EH5%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%250A%253Cp%2520class%253D%2522heading-6%2522%253EH6%2520-%2520This%2520is%2520a%2520Heading%253C%252Fp%253E%250A%253Cp%253E%253Csmall%253EP%2520-%2520This%2520is%2520a%2520small%2520text%253C%252Fsmall%253E%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cp%2520class%253D%2522gray%2522%253EThis%2520is%2520gray%2520colored%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522center%2522%253EThis%2520is%2520center%2520text%253C%252Fp%253E%250A"
+  style="width: 100%; height: 340px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+
+    <section class="main-title" id="navbar">
+      <h2 class="avatar-heading" >Navigation</h2>
+      <p class="component-navbar-item">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. 
+        It is a hamburger menu in medium and small devices.</p>
+      <div class="navigation-item">
+        <nav class="flex nav-item">
+          <div class="left-nav">
+          <a href="index.html" class="nav-heading" >My website</a>
+            <input class="search-bar" placeholder="Search"/></div>
+            <div class="right-nav">
+            <button class="btn  btn-round">Login</button>
+            <button  class="badge-button badge-lg">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="icon-button-badge icon-xl">16</span>
+            </button>
+            <button  class="badge-button badge-lg">
+              <i class="fas fa-heart fa-2x"></i>
+              <span class="icon-button-badge icon-xl">16</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      
     </section>
 
    

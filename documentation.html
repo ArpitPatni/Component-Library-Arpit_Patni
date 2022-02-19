@@ -90,8 +90,13 @@
           </a>
         </li>
         <li>
-          <a href="#navbar">
+          <a href="#navigation">
             <span>Navbar</span>
+          </a>
+        </li>
+        <li>
+          <a href="#rating">
+            <span>Rating</span>
           </a>
         </li>
       </ul>
@@ -366,6 +371,157 @@
       </iframe>
     </section>
 
+    <!-- CARD ITEMS -->
+
+    <section class="main-title" id="cards">
+      <div class="Cards-first-description">
+      <h2 class="component-heading avatar-heading">Cards</h2>
+      <p class="component-navbar-item">
+        Card are used to show user related data collectively, like product details.
+      </p>
+    </div>
+      <h3 class="component-heading avatar-heading">Cards with badges</h3>
+      <p class="component-navbar-item">
+        To show cart or stackedfication count, you can use number badge. Check code below to copy the html part as is.
+      </p>
+      <div class="badge-items flex">
+        <div class="card-container">
+          <h4 class="card-with-badge"><i class="fas fa-heart"></i></h4>
+          <img class="card-image"
+            src="Asset/Sweatshirt.jpg"
+            alt="Jacket"
+          />
+          <div class="description">
+            <p class="card-heading">Men Premium Jacket</p>
+            <p class="price">$2000</p>
+            <button class="add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-with-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522Asset%252Fjacket.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Jacket%2522%250A%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-heading%2522%253EMen%2520Premium%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25242000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      
+      <h3 class="component-heading avatar-heading">Cards with dismiss</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+      <div class="badge-items flex">
+        <div class="card-container">
+          <h4 class="card-with-badge"><a href="">X</a></h4>
+          <img class="card-image"
+            src="Asset/Sweatshirt.jpg"
+            alt="Jacket"
+          />
+          <div class="description">
+            <p class="card-heading">Men Premium Jacket</p>
+            <p class="price">$2000</p>
+            <button class="add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-with-badge%2522%253E%253Ca%2520href%253D%2522%2522%253EX%253C%252Fa%253E%253C%252Fh4%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522Asset%252Fjacket.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Jacket%2522%250A%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-heading%2522%253EMen%2520Premium%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25242000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </iframe>
+<h3 class="component-heading avatar-heading">Cards with text overlay</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+      <div class="badge-items flex">
+        <div class="card-container">
+            <h4 class="card-with-badge"><a href="">X</a></h4>
+            <img class="card-image"
+              src="Asset/Sweatshirt.jpg"
+              alt="Jacket"
+            />
+            <div class="description">
+              <p class="card-heading">Men Premium Jacket</p>
+              <p class="price">$2000</p>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+            <div class="image-overlay flex center">
+              <div class="image-title">OUT OF STOCK</div>
+            </div>
+          </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-with-badge%2522%253E%253Ca%2520href%253D%2522%2522%253EX%253C%252Fa%253E%253C%252Fh4%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522Asset%252Fjacket.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Jacket%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-heading%2522%253EMen%2520Premium%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25242000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-overlay%2520flex%2520center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-title%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h3 class="component-heading avatar-heading">Text only cards</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+      <div class="badge-items flex">
+        <div class="text-card-container">
+          <a href="" class="cross">X</a>
+          <h1>Lorem ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            accusamus, fugit sunt vero voluptatibus quae tempora necessitatibus
+            possimus quisquam aperiam!
+          </p>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-card-container%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522cross%2522%253EX%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ch1%253ELorem%2520ipsum%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Beatae%250A%2520%2520%2520%2520%2520%2520%2520%2520accusamus%252C%2520fugit%2520sunt%2520vero%2520voluptatibus%2520quae%2520tempora%2520necessitatibus%250A%2520%2520%2520%2520%2520%2520%2520%2520possimus%2520quisquam%2520aperiam%21%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h3 class="component-heading avatar-heading">Vertical/Horizontal cards</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+      <div class="badge-items flex">
+        <div class="card-container">
+          <h4 class="card-with-badge"><i class="fas fa-heart"></i></h4>
+          <img class="card-image"
+            src="Asset/Sweatshirt.jpg"
+            alt="Jacket"
+          />
+          <div class="description">
+            <p class="card-heading">Men Premium Jacket</p>
+            <p class="price">$2000</p>
+            <button class="add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-with-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522Asset%252Fjacket.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Jacket%2522%250A%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-heading%2522%253EMen%2520Premium%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25242000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h3 class="component-heading avatar-heading">Cards with shadow</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+      <div class="badge-items flex">
+        <div class="card-container shadow">
+          <h4 class="card-with-badge"><i class="fas fa-heart"></i></h4>
+          <img class="card-image"
+            src="Asset/Sweatshirt.jpg"
+            alt="Jacket"
+          />
+          <div class="description">
+            <p class="card-heading">Men Premium Jacket</p>
+            <p class="price">$2000</p>
+            <button class="add-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-with-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522Asset%252Fjacket.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Jacket%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-heading%2522%253EMen%2520Premium%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25242000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-cart-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520"
+  style="width: 100%; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
     
 
     <section class="main-title" id="images">
@@ -488,7 +644,7 @@
     </section>
 
     <section class="main-title" id="navigation">
-      <h2 class="component-heading" >Navigation</h2>
+      <h2 class="avatar-heading" >Navigation</h2>
       <p class="component-navbar-item">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. 
         It is a hamburger menu in medium and small devices.</p>
       <div class="navigation-item">
@@ -516,6 +672,37 @@
   sandbox="allow-scripts allow-same-origin">
 </iframe>
       
+    </section>
+
+    <section class="main-title" id="rating">
+      <h2 class="component-heading avatar-heading" >Rating</h2>
+      <p class="component-navbar-item">Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+      <div class="rating-item ">
+        <div class="star-container">
+          <div class="rating-wrapper">
+            <input type="radio" name="rating" id="star-1" /><label
+              for="star-1"
+            ></label>
+            <input type="radio" name="rating" id="star-2" /><label
+              for="star-2"
+            ></label>
+            <input type="radio" name="rating" id="star-3" /><label
+              for="star-3"
+            ></label>
+            <input type="radio" name="rating" id="star-4" /><label
+              for="star-4"
+            ></label>
+            <input type="radio" name="rating" id="star-5" /><label
+              for="star-5"
+            ></label>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28190%2C138%2C191%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-1%2522%2520%252F%253E%253Clabel%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-2%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-2%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-3%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-4%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-4%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-5%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-5%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
     </section>
 
    

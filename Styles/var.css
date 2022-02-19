@@ -9,8 +9,7 @@
   --blue-color: #3498db;
   --border-color:rgba(128, 128, 128, 0.363);
   --gray-color:gray;
-  --light-gray:lightgray;
-  
+  --light-gray:lightgray; 
 }
 
 * {
